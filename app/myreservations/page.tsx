@@ -6,7 +6,7 @@ const MyReservationsPage = () => {
             <h1 className="my-6 mb-6 text-2xl"> My reservations</h1>
 
             <div className="space-y-4">
-            <div className="p-5 grid-cols-1 md:grid-cols-4 gap-4 shadow-md border border-gray-300 rounded-xl">
+                <div className="p-5 grid-cols-1 md:grid-cols-4 gap-4 shadow-md border border-gray-300 rounded-xl">
                     <div className="col-span-1">
                         <div className="relative overflow-hidden aspect-square rounded-xl">
                             <Image
