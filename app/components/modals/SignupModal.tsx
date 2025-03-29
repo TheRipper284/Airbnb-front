@@ -15,7 +15,7 @@ const SignupModal = () => {
     
     const router = useRouter();
     const signupModal = useSignupModal();
-    const  [email, setEmail] = useState('');
+    const [email, setEmail] = useState('');
     const [passsword1, setPassword1] = useState('');
     const [passsword2, setPassword2] = useState('');
     const [errors, setErrors] = useState<string[]>([]);
